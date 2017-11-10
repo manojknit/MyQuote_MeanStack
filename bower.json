@@ -1,0 +1,18 @@
+{
+  "name": "myquote_meanstack",
+  "description": "Sample MEAN Stack Project",
+  "main": "index.js",
+  "authors": [
+    "Blackhawk"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "toastr": "^2.1.3",
+    "angular": "^1.6.6",
+    "angular-resource": "^1.6.6",
+    "angular-route": "^1.6.6"
+  }
+}
