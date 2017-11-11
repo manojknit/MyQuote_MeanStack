@@ -1,7 +1,11 @@
 doctype html
 html(lang="en")
     head
-     //link(href="/favicon.ioc", rel="shortcut icon", type="image/x-icon")
+     link(href="/favicon.ioc", rel="shortcut icon", type="image/x-icon")
+     link(rel='stylesheet', href='/vendor/bootstrap/dist/css/bootstrap.css')
+     link(rel='stylesheet', href='/stylesheets/style.css')
+     link(rel='stylesheet', href='/vendor/toastr/toastr.css')
     body
-        h1 Hello World
+     block main-contaent
+     include scripts
      
